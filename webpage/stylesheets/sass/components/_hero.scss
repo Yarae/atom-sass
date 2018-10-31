@@ -1,11 +1,12 @@
 // *** HERO PARTIAL ***
 #hero {
   width: 100vw;
-  @include basic-flex (center, flex-start);
+  @include basic-flex ();
 
   #hero-content {
     width: $content-width;
-    height: 25px;
-    background-color: #CCC;
+    #hero-content-top {
+      width: 100%;
+    }//hero-content-top
   }//hero-content
 }//hero
