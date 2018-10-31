@@ -1,6 +1,7 @@
 // *** HERO PARTIAL ***
 #hero {
   width: 100vw;
+  @include basic-flex (center, flex-start);
 
   #hero-content {
     width: $content-width;
