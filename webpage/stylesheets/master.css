@@ -354,6 +354,36 @@ header #header-content #header-content-right ul li img {
   color: #EBAB00;
 }
 
+#sub-features {
+  width: 100%vw;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#sub-features #sub-features-content {
+  width: 860px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#sub-features #sub-features-content #sub-features-expectations {
+  width: 100%;
+}
+
+#sub-features #sub-features-content #sub-features-expectations h2 {
+  width: 100%;
+  text-align: left;
+}
+
+#sub-features #sub-features-content #sub-features-expectations #expectations-flex {
+  width: 100%;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -370,4 +400,11 @@ a {
 
 ahover {
   text-decoration: none;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 200;
+  color: #EFDAB9;
+  letter-spacing: 0.05em;
 }
