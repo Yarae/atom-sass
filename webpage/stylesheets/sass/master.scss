@@ -4,8 +4,11 @@
 @import "helpers/reset";
 @import "helpers/typography";
 
+@import "components/vars";
+@import "components/mixins";
 @import "components/placeholders";
 @import "components/header";
+@import "components/hero";
 
 // --- MASTER CONTROLS ---
 
@@ -16,5 +19,14 @@ body {
   font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
   font-size: 100%;
   color: #EFEAE1;
-  background-color: #333233;
+
+  background-color: $body-color;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  &hover {
+    text-decoration: none;
+  }
 }
