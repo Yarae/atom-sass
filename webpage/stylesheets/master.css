@@ -354,6 +354,22 @@ header #header-content #header-content-right ul li img {
   color: #EBAB00;
 }
 
+footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+footer #footer-content {
+  width: 860px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
 body {
   width: 100vw;
   height: 100vh;
