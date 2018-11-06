@@ -433,6 +433,25 @@ footer #footer-content #footer-content-right #footer-content-right-uls ul li a:h
   color: #EBAB00;
 }
 
+#sub-footer {
+  width: 100vw;
+  height: 55px;
+  background-color: #EFEAE1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#sub-footer #sub-footer-content {
+  height: 100%;
+  width: 860px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
 body {
   width: 100vw;
   height: 100vh;

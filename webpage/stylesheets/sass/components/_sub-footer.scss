@@ -1,0 +1,22 @@
+// *** SUB-FOOTER PARTIAL ***
+
+#sub-footer {
+  width: 100vw;
+  height: 55px;
+  background-color: #EFEAE1;
+  @include basic-flex(center, center);
+
+  #sub-footer-content {
+    height: 100%;
+    width: $content-width;
+    @include basic-flex(space-between, center)
+
+    #sub-footer-content-left {
+
+    }//sub-footer-content-left
+
+    #sub-footer-content-right {
+
+    }//sub-footer-content-right
+  }//sub-footer-content
+}//sub-footer
