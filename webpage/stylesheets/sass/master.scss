@@ -9,16 +9,17 @@
 @import "components/placeholders";
 @import "components/header";
 @import "components/hero";
-@import "components/sub-features";
 @import "components/sub-hero";
+@import "components/features";
+@import "components/sub-features";
 @import "components/footer";
 @import "components/sub-footer";
 
 // --- MASTER CONTROLS ---
 
-body {
-  width: 100vw;
+body{
   height: 100vh;
+  width:  100vw;
 
   font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
   font-size: 100%;
@@ -27,45 +28,32 @@ body {
   background-color: $body-color;
 }
 
-a {
+a{
   text-decoration: none;
   color: inherit;
-
-  &hover {
+  &:hover{
     text-decoration: none;
-  }//hover
+  }
 }
 
-p {
+p{
   color: $atom-tan;
   line-height: 1.45;
-}
-
-
-h2 {
-  font-size: 2em;
-  font-weight: 200;
-  color: $atom-tan;
-  letter-spacing: 0.05em;
-}
-
-p {
-  color: $atom-tan;
-  font-weight: 300;
   margin: 16px 0px;
   width: 350px;
   letter-spacing: 0.02em;
-}//had to add
+}
 
-h2 {
-  font-size: 2em;
+h2{
+  font-size:  2em;
   font-weight: 200;
-  color: #EFDAB9;
+  color: $atom-tan;
   letter-spacing: 0.05em;
 }
 
-h4 {
+h4{
   font-size: 1.2em;
   color: $atom-tan;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
