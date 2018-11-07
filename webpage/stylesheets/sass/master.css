@@ -187,7 +187,7 @@ header {
                   height: 16px;
                   width: 14px;
                   margin: 2px 10px 0 0; }
-                #hero #hero-content #hero-content-top #hero-content-top-ul ul li a div span {
+                #hero #hero-content #hero-content-top #hero-content-top-ul ul li a div p {
                   color: #333233;
                   font-weight: 500;
                   font-size: 1.1em;
@@ -278,21 +278,16 @@ header {
       width: 100%; }
       #sub-features #sub-features-content #sub-features-expectations h2 {
         width: 100%;
-        margin-bottom: 50px;
         text-align: left; }
       #sub-features #sub-features-content #sub-features-expectations #expectations-grid {
         width: 100%;
         display: grid;
         grid-template: repeat(3, 1fr)/repeat(2, 1fr);
-        grid-gap: 40px 12.5%; }
+        grid-gap: 0px 0px; }
         #sub-features #sub-features-content #sub-features-expectations #expectations-grid div {
-          width: 100%;
+          width: 390px;
           height: 80px;
-          padding-left: 65px;
-          background: url("media/imgs/sf1.png") no-repeat;
-          background-position: top left;
-          background-size: 9%;
-          background-color: #2b2a2b; }
+          background-color: #CCC; }
 
 body {
   width: 100vw;
@@ -308,20 +303,8 @@ a {
   ahover {
     text-decoration: none; }
 
-p {
-  color: #EFDAB9;
-  font-weight: 200;
-  margin: 16px 0px;
-  width: 350px;
-  letter-spacing: 0.02em; }
-
 h2 {
   font-size: 2em;
   font-weight: 200;
   color: #EFDAB9;
   letter-spacing: 0.05em; }
-
-h4 {
-  font-size: 1.2em;
-  color: #EFDAB9;
-  font-weight: 500; }

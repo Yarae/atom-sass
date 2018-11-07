@@ -1,7 +1,8 @@
 // *** SUB FEATURES PARTIAL ***
 
 #sub-features {
-  width: 100%vw;
+  width: 100vw;
+  padding: 210px 0px;
   margin-top: 100px;
   @include basic-flex(center, center);
 
@@ -14,15 +15,44 @@
 
       h2 {
         width: 100%;
+        margin-bottom: 50px;
         text-align: left;
       }//h2
 
-      #expectations-flex {
+      #expectations-grid {
         width: 100%;
-        div {
+        display: grid;
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        grid-gap: 40% 5%;
 
+        div:nth-child(1){
+          @include grid-item('sf1.png');
         }
-      }//expectations-flex
+
+        div:nth-child(2){
+          @include grid-item('sf2.png');
+        }
+
+        div:nth-child(3){
+          @include grid-item('sf3.png');
+        }
+
+        div:nth-child(4){
+          @include grid-item('sf4.png');
+        }
+
+        div:nth-child(5){
+          @include grid-item('sf5.png');
+        }
+
+        div:nth-child(6){
+          @include grid-item('sf6.png');
+        }
+      }//expectations-grid
     }//sub-features-expectations
+
+    #sub-features-customized {
+
+    }//sub-features-customized
   }//sub-features-content
 }//sub-features
