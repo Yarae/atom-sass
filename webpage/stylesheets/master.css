@@ -287,6 +287,21 @@ header {
   #feature-1 #feature-1-info {
     padding-left: 35px; }
 
+#feature-2 {
+  background: url("media/imgs/atomide-backr.svg") no-repeat;
+  background-size: auto 70%;
+  background-position: calc(-50% + 550px) center; }
+  #feature-2 #feature-2-img {
+    width: 50%; }
+    #feature-2 #feature-2-img img {
+      position: relative;
+      left: 45px;
+      filter: brightness(0.7) contrast(0.8) sepia(1) hue-rotate(160deg) saturate(2.5); }
+      #feature-2 #feature-2-img img:hover {
+        filter: none; }
+  #feature-2 #feature-2-info {
+    padding-left: 390px; }
+
 #feature-3 {
   background: url("media/imgs/github-backr.svg") no-repeat;
   background-position: calc(50% + 550px); }
