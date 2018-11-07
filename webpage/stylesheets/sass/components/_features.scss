@@ -2,7 +2,10 @@
 
 #feature-1{
   width: 100vw;
+  padding: 100px 0px;
   margin: 50px 0px;
+  background: url('media/imgs/teletype-backr.svg') no-repeat;
+  background-position: calc(50% + 1000px);
   @include basic-flex(center, center);
 
   #feature-1-img{
