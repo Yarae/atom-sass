@@ -1,3 +1,8 @@
+// LOCAL VARIABLES
+
+$row-gap: 100px;
+$column-gap: 5%;
+
 // *** SUB FEATURES PARTIAL ***
 
 #sub-features {
@@ -5,6 +10,13 @@
   padding: 210px 0px;
   margin-top: 100px;
   @include basic-flex(center, center);
+
+  a {
+    color: $button-color;
+    &:hover {
+      color: $hover-color;
+    }
+  }
 
   #sub-features-content {
     width: $content-width;
@@ -23,7 +35,7 @@
         width: 100%;
         display: grid;
         grid-template: repeat(3, 1fr) / repeat(2, 1fr);
-        grid-gap: 40% 5%;
+        grid-gap: $row-gap $column-gap;
 
         div:nth-child(1){
           @include grid-item('sf1.png');
@@ -52,7 +64,39 @@
     }//sub-features-expectations
 
     #sub-features-customized {
+      width: 100%;
 
+      h2 {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        text-align: left;
+      }
+
+      #customized-grid {
+        width: 100%;
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        grid-gap: $row-gap $column-gap;
+
+        div:nth-child(1){
+          @include grid-item('sf7.png');
+        }
+
+        div:nth-child(2){
+          @include grid-item('sf8.png');
+        }
+
+        div:nth-child(3){
+          @include grid-item('sf9.png');
+        }
+
+        div:nth-child(4){
+          @include grid-item('sf10.png');
+        }
+
+      }//customized-grid
     }//sub-features-customized
+
   }//sub-features-content
 }//sub-features
