@@ -187,7 +187,7 @@ header {
                   height: 16px;
                   width: 14px;
                   margin: 2px 10px 0 0; }
-                #hero #hero-content #hero-content-top #hero-content-top-ul ul li a div span {
+                #hero #hero-content #hero-content-top #hero-content-top-ul ul li a div p {
                   color: #333233;
                   font-weight: 500;
                   font-size: 1.1em;
@@ -268,10 +268,6 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: row; }
-  #sub-features a {
-    color: #FED153; }
-    #sub-features a:hover {
-      color: #EBAB00; }
   #sub-features #sub-features-content {
     width: 860px;
     display: flex;
@@ -282,174 +278,16 @@ header {
       width: 100%; }
       #sub-features #sub-features-content #sub-features-expectations h2 {
         width: 100%;
-        margin-bottom: 50px;
         text-align: left; }
       #sub-features #sub-features-content #sub-features-expectations #expectations-grid {
         width: 100%;
         display: grid;
         grid-template: repeat(3, 1fr)/repeat(2, 1fr);
-        grid-gap: 100px 5%; }
-        #sub-features #sub-features-content #sub-features-expectations #expectations-grid div:nth-child(1) {
-          width: 100%;
+        grid-gap: 0px 0px; }
+        #sub-features #sub-features-content #sub-features-expectations #expectations-grid div {
+          width: 390px;
           height: 80px;
-          padding-left: 60px;
-          background: url("media/imgs/sf1.png") no-repeat;
-          background-position: left top;
-          background-size: 8%; }
-        #sub-features #sub-features-content #sub-features-expectations #expectations-grid div:nth-child(2) {
-          width: 100%;
-          height: 80px;
-          padding-left: 60px;
-          background: url("media/imgs/sf2.png") no-repeat;
-          background-position: left top;
-          background-size: 8%; }
-        #sub-features #sub-features-content #sub-features-expectations #expectations-grid div:nth-child(3) {
-          width: 100%;
-          height: 80px;
-          padding-left: 60px;
-          background: url("media/imgs/sf3.png") no-repeat;
-          background-position: left top;
-          background-size: 8%; }
-        #sub-features #sub-features-content #sub-features-expectations #expectations-grid div:nth-child(4) {
-          width: 100%;
-          height: 80px;
-          padding-left: 60px;
-          background: url("media/imgs/sf4.png") no-repeat;
-          background-position: left top;
-          background-size: 8%; }
-        #sub-features #sub-features-content #sub-features-expectations #expectations-grid div:nth-child(5) {
-          width: 100%;
-          height: 80px;
-          padding-left: 60px;
-          background: url("media/imgs/sf5.png") no-repeat;
-          background-position: left top;
-          background-size: 8%; }
-        #sub-features #sub-features-content #sub-features-expectations #expectations-grid div:nth-child(6) {
-          width: 100%;
-          height: 80px;
-          padding-left: 60px;
-          background: url("media/imgs/sf6.png") no-repeat;
-          background-position: left top;
-          background-size: 8%; }
-    #sub-features #sub-features-content #sub-features-customized {
-      width: 100%; }
-      #sub-features #sub-features-content #sub-features-customized h2 {
-        width: 100%;
-        margin-top: 100px;
-        margin-bottom: 50px;
-        text-align: left; }
-      #sub-features #sub-features-content #sub-features-customized #customized-grid {
-        width: 100%;
-        display: grid;
-        grid-template: repeat(2, 1fr)/repeat(2, 1fr);
-        grid-gap: 100px 5%; }
-        #sub-features #sub-features-content #sub-features-customized #customized-grid div:nth-child(1) {
-          width: 100%;
-          height: 80px;
-          padding-left: 60px;
-          background: url("media/imgs/sf7.png") no-repeat;
-          background-position: left top;
-          background-size: 8%; }
-        #sub-features #sub-features-content #sub-features-customized #customized-grid div:nth-child(2) {
-          width: 100%;
-          height: 80px;
-          padding-left: 60px;
-          background: url("media/imgs/sf8.png") no-repeat;
-          background-position: left top;
-          background-size: 8%; }
-        #sub-features #sub-features-content #sub-features-customized #customized-grid div:nth-child(3) {
-          width: 100%;
-          height: 80px;
-          padding-left: 60px;
-          background: url("media/imgs/sf9.png") no-repeat;
-          background-position: left top;
-          background-size: 8%; }
-        #sub-features #sub-features-content #sub-features-customized #customized-grid div:nth-child(4) {
-          width: 100%;
-          height: 80px;
-          padding-left: 60px;
-          background: url("media/imgs/sf10.png") no-repeat;
-          background-position: left top;
-          background-size: 8%; }
-
-footer {
-  width: 100vw;
-  padding: 205px 0px;
-  border-top: 1px solid #1A191A;
-  background: url("media/imgs/rocket.svg") no-repeat #2C2A2B;
-  background-position: calc(50% + 380px) 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-footer #footer-content {
-  width: 860px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-footer #footer-content #footer-content-left {
-  width: 50%;
-  height: 295px;
-  padding-right: 75px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-direction: column;
-}
-
-footer #footer-content #footer-content-left div {
-  width: fit-content;
-  color: #333233;
-  font-weight: 500;
-  padding: 8px 16px;
-  border-radius: 5px;
-  background-color: #FED153;
-}
-
-footer #footer-content #footer-content-left div:hover {
-  background-color: #EBAB00;
-}
-
-footer #footer-content #footer-content-right {
-  width: 50%;
-  padding-left: 75px;
-  box-sizing: border-box;
-  height: 295px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-direction: column;
-}
-
-footer #footer-content #footer-content-right #footer-content-right-uls {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-footer #footer-content #footer-content-right #footer-content-right-uls ul {
-  color: #EFDAB9;
-  line-height: 1.7;
-}
-
-footer #footer-content #footer-content-right #footer-content-right-uls ul li {
-  padding-right: 26px;
-}
-
-footer #footer-content #footer-content-right #footer-content-right-uls ul li a {
-  color: #FED153;
-}
-
-footer #footer-content #footer-content-right #footer-content-right-uls ul li a:hover {
-  color: #EBAB00;
-}
+          background-color: #CCC; }
 
 body {
   width: 100vw;
@@ -465,36 +303,8 @@ a {
   ahover {
     text-decoration: none; }
 
-<<<<<<< HEAD
-ahover {
-  text-decoration: none;
-}
-
-p {
-  color: #EFDAB9;
-  line-height: 1.45;
-}
-=======
-p {
-  color: #EFDAB9;
-  font-weight: 300;
-  margin: 16px 0px;
-  width: 350px;
-  letter-spacing: 0.02em; }
->>>>>>> feature/sub-features
-
 h2 {
   font-size: 2em;
   font-weight: 200;
   color: #EFDAB9;
-<<<<<<< HEAD
-  letter-spacing: 0.05em;
-}
-=======
   letter-spacing: 0.05em; }
-
-h4 {
-  font-size: 1.2em;
-  color: #EFDAB9;
-  font-weight: 500; }
->>>>>>> feature/sub-features

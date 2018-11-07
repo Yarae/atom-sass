@@ -9,6 +9,7 @@
 @import "components/placeholders";
 @import "components/header";
 @import "components/hero";
+@import "components/sub-features";
 @import "components/sub-hero";
 @import "components/footer";
 
@@ -45,4 +46,25 @@ h2 {
   font-weight: 200;
   color: $atom-tan;
   letter-spacing: 0.05em;
+}
+
+p {
+  color: $atom-tan;
+  font-weight: 300;
+  margin: 16px 0px;
+  width: 350px;
+  letter-spacing: 0.02em;
+}//had to add
+
+h2 {
+  font-size: 2em;
+  font-weight: 200;
+  color: #EFDAB9;
+  letter-spacing: 0.05em;
+}
+
+h4 {
+  font-size: 1.2em;
+  color: $atom-tan;
+  font-weight: 500;
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // *** SUB FEATURES PARTIAL ***
 
 #sub-features {
@@ -5,6 +6,28 @@
   margin-top: 100px;
   @include basic-flex(center, center);
 
+=======
+// LOCAL VARIABLES
+
+$row-gap: 100px;
+$column-gap: 5%;
+
+// *** SUB FEATURES PARTIAL ***
+
+#sub-features {
+  width: 100vw;
+  padding: 210px 0px;
+  margin-top: 100px;
+  @include basic-flex(center, center);
+
+  a {
+    color: $button-color;
+    &:hover {
+      color: $hover-color;
+    }
+  }
+
+>>>>>>> feature/sub-features
   #sub-features-content {
     width: $content-width;
     @include basic-flex(center, center, column);
@@ -14,6 +37,7 @@
 
       h2 {
         width: 100%;
+<<<<<<< HEAD
         text-align: left;
       }//h2
 
@@ -24,5 +48,78 @@
         }
       }//expectations-flex
     }//sub-features-expectations
+=======
+        margin-bottom: 50px;
+        text-align: left;
+      }//h2
+
+      #expectations-grid {
+        width: 100%;
+        display: grid;
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        grid-gap: $row-gap $column-gap;
+
+        div:nth-child(1){
+          @include grid-item('sf1.png');
+        }
+
+        div:nth-child(2){
+          @include grid-item('sf2.png');
+        }
+
+        div:nth-child(3){
+          @include grid-item('sf3.png');
+        }
+
+        div:nth-child(4){
+          @include grid-item('sf4.png');
+        }
+
+        div:nth-child(5){
+          @include grid-item('sf5.png');
+        }
+
+        div:nth-child(6){
+          @include grid-item('sf6.png');
+        }
+      }//expectations-grid
+    }//sub-features-expectations
+
+    #sub-features-customized {
+      width: 100%;
+
+      h2 {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        text-align: left;
+      }
+
+      #customized-grid {
+        width: 100%;
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        grid-gap: $row-gap $column-gap;
+
+        div:nth-child(1){
+          @include grid-item('sf7.png');
+        }
+
+        div:nth-child(2){
+          @include grid-item('sf8.png');
+        }
+
+        div:nth-child(3){
+          @include grid-item('sf9.png');
+        }
+
+        div:nth-child(4){
+          @include grid-item('sf10.png');
+        }
+
+      }//customized-grid
+    }//sub-features-customized
+
+>>>>>>> feature/sub-features
   }//sub-features-content
 }//sub-features
