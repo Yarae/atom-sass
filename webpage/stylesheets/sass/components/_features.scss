@@ -2,7 +2,8 @@
 
 #feature-1{
   background: url('media/imgs/teletype-backr.svg') no-repeat;
-  background-position: calc(50% + 1000px);
+  background-size: contain;
+  background-position: calc(50% + 1000px) 0%;
 
   #feature-1-img{
     width: 50%;
@@ -48,7 +49,8 @@
 
 #feature-3{
   background: url('media/imgs/github-backr.svg') no-repeat;
-  background-position: calc(50% + 550px);
+  background-size: contain;
+  background-position: calc(50% + 550px) 0%;
 
   #feature-3-img{
     width: 50%;
@@ -99,4 +101,4 @@
   div{
     @extend %button;
   }
-}
+}//feature-info
